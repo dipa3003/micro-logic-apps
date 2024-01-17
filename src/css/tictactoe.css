@@ -1,0 +1,49 @@
+body {
+    margin: 40px;
+}
+.square {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.square:hover {
+    background-color: aquamarine;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+}
+
+.status {
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--clr-primary-400);
+    color: white;
+}
+
+.btn-info {
+    padding: 5px 20px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--clr-primary-400);
+    color: white;
+}
+
+.game-container {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
