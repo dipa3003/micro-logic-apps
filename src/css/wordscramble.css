@@ -7,7 +7,7 @@
 }
 
 .input-word {
-    background-color: lime;
+    /* background-color: lime; */
     margin-top: 30px;
     font-size: var(--fs-body);
     display: flex;
@@ -42,21 +42,29 @@
     color: white;
     font-size: var(--fs-body);
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .word {
-    background-color: bisque;
+    /* background-color: bisque; */
+    margin-top: 20px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     font-size: var(--fs-secondary-heading);
 }
 .word > * {
-    background-color: red;
+    background-color: #144b40;
+    color: white;
     padding: 10px;
     border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .message {
-    background-color: lightgreen;
+    background-color: lightslategray;
     color: white;
     width: 300px;
     height: 100px;
@@ -65,4 +73,11 @@
     justify-content: center;
     align-items: center;
     font-weight: var(--fw-bold);
+    margin-top: 20px;
+}
+.scramble-word {
+    background-color: lime;
+    margin-top: 20px;
+    font-size: var(--fs-secondary-heading);
+    letter-spacing: 10px;
 }
