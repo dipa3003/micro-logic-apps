@@ -42,6 +42,8 @@ body {
     margin-top: 40px;
     font-style: italic;
     border-radius: 5px;
+    font-size: var(--fs-primary-heading);
+    font-weight: var(--fw-bold);
 }
 
 .btn-back {

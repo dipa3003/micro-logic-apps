@@ -1,5 +1,7 @@
-.countdown-container {
+.countdown-content-all {
     background-color: skyblue;
+}
+.countdown-container {
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -17,4 +19,63 @@
     align-items: center;
     height: 200px;
     max-width: 150px;
+}
+
+.value {
+    background-color: #144b40;
+    font-size: var(--fs-primary-heading);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: -1px 1px 5px 1px black;
+}
+.value::before {
+    content: "";
+    background-color: gray;
+    box-shadow: -1px 1px 5px 1px black;
+    height: 20px;
+    width: 10px;
+    position: absolute;
+    left: -7px;
+}
+.label {
+    font-size: var(--fs-body);
+    margin-top: 10px;
+}
+
+.input-date {
+    /* background-color: bisque; */
+    margin-top: 30px;
+    font-size: var(--fs-body);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.input-date input {
+    padding: 10px;
+    background-color: var(--clr-primary-400);
+    color: white;
+    cursor: pointer;
+}
+.input-date button {
+    padding: 0 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -1px 1px 5px 1px black;
+    color: white;
+}
+.btn-start-count {
+    background-color: var(--clr-primary-400);
+}
+.btn-start-count-2 {
+    font-style: italic;
+    background-color: var(--clr-primary-400);
+}
+.btn-reset-count {
+    background-color: orangered;
 }
