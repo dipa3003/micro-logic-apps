@@ -48,7 +48,6 @@
 }
 
 .input-date {
-    /* background-color: bisque; */
     margin-top: 30px;
     font-size: var(--fs-body);
     display: flex;

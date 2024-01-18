@@ -55,7 +55,7 @@ const CountDuration = () => {
     }
 
     return (
-        <div>
+        <>
             <Link to="/" className="btn-back">
                 Back
             </Link>
@@ -88,7 +88,7 @@ const CountDuration = () => {
                     </button>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
